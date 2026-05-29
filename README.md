@@ -1,23 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/bb667bd9-d1c7-4970-8ae8-6f1a8009ffa4
-
-## Run Locally
-
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
-
-
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-
 # Music-App
+
+A native Android application for discovering and playing music.
+
+## Features
+- **Modern UI:** Built entirely with Jetpack Compose and Material Design 3.
+- **Robust Architecture:** Follows Android's recommended MVVM (Model-View-ViewModel) and clean architecture principles.
+- **Asynchronous Operations:** Utilizes Kotlin Coroutines and Flow for smooth, non-blocking background tasks.
+- **Local Database:** Uses Room for local data persistence.
+- **Networking:** Powered by Retrofit and Moshi for seamless API communications.
+
+## Tech Stack
+- [Jetpack Compose](https://developer.android.com/jetpack/compose)
+- [Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-overview.html)
+- [Retrofit](https://square.github.io/retrofit/) & [OkHttp](https://square.github.io/okhttp/)
+- [Moshi](https://github.com/square/moshi) for JSON parsing
+- [Room](https://developer.android.com/training/data-storage/room)
+
+## Getting Started
+
+**Prerequisites:**  
+- [Android Studio](https://developer.android.com/studio) (Latest version recommended)
+
+### Installation
+1. Open Android Studio.
+2. Select **Open** and choose the directory containing this project.
+3. Wait for the initial Gradle sync to complete.
+4. Select your preferred emulator or physical device and click **Run**.
