@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Central headphone band -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M34,56 C34,36 43,26 54,26 C65,26 74,36 74,56" />
+
+    <!-- Left Earcup -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M27,50 C27,47 29,45 32,45 L35,45 C36,45 37,46 37,47 L37,67 C37,68 36,69 35,69 L32,69 C29,69 27,67 27,64 Z" />
+
+    <!-- Right Earcup -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M71,47 C71,46 72,45 73,45 L76,45 C79,45 81,47 81,50 L81,64 C81,67 79,69 76,69 L73,69 C72,69 71,68 71,67 Z" />
+
+    <!-- Little neon core pulses representing audio frequency -->
+    <path
+        android:fillColor="#39FF14"
+        android:pathData="M44,61h3v6h-3z" />
+    <path
+        android:fillColor="#39FF14"
+        android:pathData="M51,57h6v10h-6z" />
+    <path
+        android:fillColor="#39FF14"
+        android:pathData="M61,61h3v6h-3z" />
+</vector>

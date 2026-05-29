@@ -1,0 +1,8 @@
+{
+  "name": "Mino",
+  "description": "Minimalist audio streaming and offline playback engine designed for responsive, clean and modern material interaction with synchronized platform settings and custom playlist creation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
